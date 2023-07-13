@@ -11,7 +11,7 @@ Ideally, in real life scenario, different solutions should be formed and library
 
 **HPASS.Service.Main** project created with .NET6 WEB API template. Modified to show some samples about how I design a back end service for current requirements and future development.
 
-As stated in manual, Ef Core used as orm with code first application. Since no database design or model requirements stated in detail, I design models with theoretical knowhow on healthcare sector.
+As stated in manual, Ef Core used as orm with code first application. Since no database design or model requirements stated in detail, I designed models with theoretical knowhow on healthcare sector.
 
 ![appsettings](https://github.com/ureturkmert/casestudy/assets/139451860/03e32408-0d90-49f3-b580-1b708c51db44)
 
