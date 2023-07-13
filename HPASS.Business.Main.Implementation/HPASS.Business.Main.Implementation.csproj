@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HPASS.Business.Base\HPASS.Business.Base.csproj" />
+    <ProjectReference Include="..\HPASS.Business.Main.Abstraction\HPASS.Business.Main.Abstraction.csproj" />
+    <ProjectReference Include="..\HPASS.Crosscutting.Abstraction\HPASS.Crosscutting.Abstraction.csproj" />
+    <ProjectReference Include="..\HPASS.Crosscutting.Helper\HPASS.Crosscutting.Helper.csproj" />
+    <ProjectReference Include="..\HPASS.Entity.Main\HPASS.Entity.Main.csproj" />
+    <ProjectReference Include="..\HPASS.Request.Common\HPASS.Request.Common.csproj" />
+  </ItemGroup>
+
+</Project>

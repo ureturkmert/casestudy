@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.2.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.Formatters.Json" Version="2.2.0" />
+		<PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.31.0" />
+		<PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.31.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+    <ProjectReference Include="..\HPASS.Authentication.Foundation.Option\HPASS.Authentication.Foundation.Option.csproj" />
+    <ProjectReference Include="..\HPASS.Authentication.Foundation.Secret\HPASS.Authentication.Foundation.Secret.csproj" />
+    <ProjectReference Include="..\HPASS.Crosscutting.Abstraction\HPASS.Crosscutting.Abstraction.csproj" />
+  </ItemGroup>
+
+</Project>

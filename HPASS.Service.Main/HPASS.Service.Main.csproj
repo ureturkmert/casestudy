@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Version>1.0.0</Version>
+	</PropertyGroup>
+
+	
+	<ItemGroup>
+	  <ProjectReference Include="..\HPASS.Authentication.Foundation.Generation\HPASS.Authentication.Foundation.Generation.csproj" />
+	  <ProjectReference Include="..\HPASS.Authentication.Foundation.Token\HPASS.Authentication.Foundation.Token.csproj" />
+	  <ProjectReference Include="..\HPASS.Authentication.Foundation.Validation\HPASS.Authentication.Foundation.Validation.csproj" />
+	  <ProjectReference Include="..\HPASS.AutoMapping.Implementation\HPASS.AutoMapping.Implementation.csproj" />
+	  <ProjectReference Include="..\HPASS.Business.Main.Implementation\HPASS.Business.Main.Implementation.csproj" />
+	  <ProjectReference Include="..\HPASS.Crosscutting.Implementation\HPASS.Crosscutting.Implementation.csproj" />
+	  <ProjectReference Include="..\HPASS.DataAccessLayer.Implementation\HPASS.DataAccessLayer.Implementation.csproj" />
+	  <ProjectReference Include="..\HPASS.Request.Common\HPASS.Request.Common.csproj" />
+	  <ProjectReference Include="..\HPASS.Request.Patient\HPASS.Request.Patient.csproj" />
+	  <ProjectReference Include="..\HPASS.Service.Base.Configuration\HPASS.Service.Base.Configuration.csproj" />
+	  <ProjectReference Include="..\HPASS.Service.Base.Controller\HPASS.Service.Base.Controller.csproj" />
+	</ItemGroup>
+
+</Project>

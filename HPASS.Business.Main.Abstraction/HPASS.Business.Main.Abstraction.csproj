@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HPASS.Dto.Main\HPASS.Dto.Main.csproj" />
+    <ProjectReference Include="..\HPASS.Request.Common\HPASS.Request.Common.csproj" />
+    <ProjectReference Include="..\HPASS.Request.Patient\HPASS.Request.Patient.csproj" />
+    <ProjectReference Include="..\HPASS.Response.Common\HPASS.Response.Common.csproj" />
+  </ItemGroup>
+
+</Project>

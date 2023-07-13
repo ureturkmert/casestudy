@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HPASS.Crosscutting.Abstraction\HPASS.Crosscutting.Abstraction.csproj" />
+    <ProjectReference Include="..\HPASS.DataAccessLayer.Abstraction\HPASS.DataAccessLayer.Abstraction.csproj" />
+    <ProjectReference Include="..\HPASS.EfCore.Context\HPASS.EfCore.Context.csproj" />
+    <ProjectReference Include="..\HPASS.Response.Common\HPASS.Response.Common.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HPASS.Entity.Base.Abstraction\HPASS.Entity.Base.Abstraction.csproj" />
+    <ProjectReference Include="..\HPASS.Response.Common\HPASS.Response.Common.csproj" />
+  </ItemGroup>
+
+</Project>
