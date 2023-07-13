@@ -592,7 +592,7 @@ Keep that in mind while exploring rest of the collection methods. Requests will 
 ![image](https://github.com/ureturkmert/casestudy/assets/139451860/48ff5557-7edc-4e6b-897d-477aea7c44b0)
 
 
-All requests other than **System Related Requests** and **Authentication Related Requests** are guarded with jwt authentication by service.Login method will authenticate simulating client and store obtanied token in global variables of Postman
+All requests other than **System Related Requests** and **Authentication Related Requests** are guarded with jwt authentication by service. Login test method will authenticate simulating client and store obtanied token in global variables of Postman
 
 ![image](https://github.com/ureturkmert/casestudy/assets/139451860/9a264412-dbcc-428c-ae59-45ee9c7bf2fa)
 
