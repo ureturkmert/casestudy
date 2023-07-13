@@ -60,7 +60,7 @@ namespace HPASS.Service.Base.Configuration
         {
 
             webApplicationBuilder.Configuration.SetBasePath(AppContext.BaseDirectory);
-            webApplicationBuilder.Configuration.AddJsonFile("appsettings.json", true, true);
+            webApplicationBuilder.Configuration.AddJsonFile("appsettings.json", false, true);
 
             return webApplicationBuilder;
         }
